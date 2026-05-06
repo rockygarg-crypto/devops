@@ -1,16 +1,15 @@
-#num1="50"
-#num2="20"
-#res=int(num1)+int(num2)
-#print(res)
-#num1=50
-#num2=20
-#print(type(num1),type(num2))
-#res=str(num1)+str(num2)
-#print(res)
-n1=int(input("enter first number:"))
-n2=int(input("enter second numner:"))
-res=n1+n2
-print(res)
+#wap to print the last digit of and number is 456735
+
+number = 45009
+#print(number%10000)
 
 
+num1=3
+num2=9
+num3=12
+#wap to find largest
+#wap to find smallest
+ 
+if num3>=num1 and num3>=num2:
+#    print(f"{num3} is greatest") 
 
