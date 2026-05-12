@@ -35,3 +35,8 @@
 # for i in name:
 #     rev=i+rev
 # print(rev)
+
+# name="python"
+# size=len(name)
+# for i in range(size):
+#     print(name[i],name,i)
