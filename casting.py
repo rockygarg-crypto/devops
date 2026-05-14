@@ -40,3 +40,27 @@
 # size=len(name)
 # for i in range(size):
 #     print(name[i],name,i)
+
+# wap to sum of the indices of a string : "python".
+
+# var="python"
+# size=len(var)
+# for i in range(size):
+#      sum=i
+# print(sum)
+     
+# wap to print the factorial from 1 to 8.
+
+# fac=1
+# for i in range (1,9):
+#    fac=fac*i
+#    print(f"factorial of {i} : {fac}")
+
+c=0
+a = "this is python"
+for i in a:
+    if i==" ":
+        c+1
+print(c)
+
+

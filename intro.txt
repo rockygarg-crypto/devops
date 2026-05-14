@@ -1,7 +1,0 @@
-c
-if name:
-    print(f"my name is {name}")
-    address=("input (enter your address)")
-    if address:
-        
-      
