@@ -55,12 +55,15 @@
 # for i in range (1,9):
 #    fac=fac*i
 #    print(f"factorial of {i} : {fac}")
+#
 
-c=0
-a = "this is python"
-for i in a:
-    if i==" ":
-        c+1
-print(c)
+# wap to print formated table on a number give by user .
+
+
+# user_num=2
+# i=1
+# while i <=10:
+#     print(f"{user_num} x {i} = {user_num*i}" )
+#     i=i+1
 
 
