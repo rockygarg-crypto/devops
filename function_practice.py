@@ -23,7 +23,7 @@
 
 # posotional parameter.
 
-# def add(a=0,b=0):
+# def add(a=0,b=0): (default parameter)
 #     print("addition :",a+b)
  
 
@@ -59,4 +59,89 @@
 
 # def sub(a,c):
 #     return a-c
-# print(sub(10,res))
+# print(sub(10,res)) (argument)
+
+
+# wap to check number pass by argument is odd or even.
+# def odd_even(a):
+#     if a % 2 ==0:
+#         print("even")
+#     else:
+#         print("odd")
+# odd_even(4)
+
+# wap of check which number is greater and two number by user.
+#wap to check the character pass by user is vowel or consonant.
+
+# def check_char(a):
+#     if a in "aeiou":
+#         print("vowels")
+#     else:
+#         print("consonants")
+# check_char("a")
+
+# wap to check is number completly divide by 2 and 3 and return.
+# "yes number is completly divide"
+# "no number is not completly divide"
+
+
+# def check_number(n):
+#     if n % 2 == 0 and n % 3 == 0:
+#         return "yes number is completly divide"
+#     else:
+#         return "yes number is not completly divide"
+            
+# res=check_number(7)
+# print(res)
+
+# wap to return length of a string pass by user without using len()
+# def len_string(s):
+#     c=0
+#     for i in s:
+#         c=c+1
+#     return c
+# print(len_string("devops"))
+
+# wap to check given how many vowels in given string.
+
+# def count_vowel(a):
+#     c=0
+#     for i in a:
+#         if i in "aeiou":
+#             c+=1
+#     return c
+# res=count_vowel("programing")
+# print(res)
+
+# # local varibles vs global variable.
+# def msg():
+#     global name
+#     name="dev" 
+#     print(name)
+# msg()
+# print("outside :",name)
+
+# wap to count our "p" in "python programing" return total occurence.
+
+# def count_char(ch):
+#     c=0
+#     for i in ch:
+#         if i == "p":
+#             c+=1
+#         return c
+# res=count_char("programing")
+# print(res)
+    
+
+# # wap to retrun sum of indexes.
+# def sum_indexes(a):
+#     s=0
+#     for i in range(len(a)):
+#         s=s+i
+#     return s
+# res=sum_indexes("python")
+# print(res)
+
+
+
+
